@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document EL19004 */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+fichero {
+	background-color:#13489d;
+	color:rgb(203, 209, 236);	
+	font-family:'Times New Roman', Times, serif;
+}
+
+ficha[id]::before {
+	content:"Id: "attr(id)" Fecha: "attr(fechaingreso);
+	color:rgb(255, 125, 32);
+	font-weight:bolder;
+	display:block;
+	text-align:left;
+	font-family:'Times New Roman', Times, serif;
+}
+
+nombre {
+	text-align:center;
+	display:inline;
+} 
+
+apellido {
+	text-align:center;
+	display:inline;
+}
+
+telefono {
+	display:block;
+}
+
+email {
+	display:block;
+}
+
+UrlWebPersonal {
+	display:block;
+}
+
+direccion {
+	display:block;
+}
+dui {
+	display:block;
+}
+isss {
+	display:block;
+}
+afp {
+	display:block;
+}
+

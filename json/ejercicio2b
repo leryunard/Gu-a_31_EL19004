@@ -1,0 +1,47 @@
+{
+	"pais":{
+		"@nombre":"El Salvador",
+		"moneda":"Dólar americano (USD)",
+		"areaTelefonica":"503",
+		"idiomas":{
+			"oficial":"Español",
+			"autoctono":"Nahuatl",
+			"segundoIdioma":"Ingles"
+		},
+		"departamentos":{"departamento":[
+				{
+					"@id":"1",
+					"@nombre":"San Salvador",
+					"cabecera":"San Salvador",
+					"habitantes":"1,700,000",
+					"altura":"545 m s. n. m.",
+					"areaTerritorial":{
+						"@unidad":"Kilómetros cuadrados",
+						"#text":"15,000"
+					}
+				},
+				{
+					"@id":"2",
+					"@nombre":"Usulután",
+					"cabecera":"Usulután",
+					"habitantes":"73,064",
+					"altura":"634 m s. n. m.",
+					"areaTerritorial":{
+						"@unidad":"Kilómetros cuadrados",
+						"#text":"139.8"
+					}
+				}
+			]},
+		"departamento":{
+			"@id":"3",
+			"@nombre":"Chalatenango",
+			"cabecera":"Chalatenango",
+			"habitantes":"21,102",
+			"altura":"800 m s. n. m.",
+			"areaTerritorial":{
+				"@unidad":"Kilómetros cuadrados",
+				"#text":"131.8"
+			}
+		}
+	}
+}

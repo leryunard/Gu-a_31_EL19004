@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?> 
+<?xml-stylesheet type="text/css" href="../css/ejercicio2b.css" ?>
+<!-- ejercicio2b.xml  EL19004 -->
+<pais nombre="El Salvador">
+  <moneda>Dólar americano (USD)</moneda>
+  <areaTelefonica>503</areaTelefonica>
+  <idiomas>
+    <oficial>Español</oficial>
+    <autoctono>Nahuatl</autoctono>
+    <segundoIdioma>Ingles</segundoIdioma>
+  </idiomas>
+  <departamentos>  
+    <departamento id="1" nombre="San Salvador">
+      <cabecera>San Salvador</cabecera>
+      <habitantes>1,700,000</habitantes>
+      <altura>545 m s. n. m.</altura>
+      <areaTerritorial unidad="Kilómetros cuadrados">15,000</areaTerritorial>
+    </departamento>
+    <departamento id="2" nombre="Usulután">
+      <cabecera>Usulután</cabecera>
+      <habitantes>73,064</habitantes>
+      <altura>634 m s. n. m.</altura>
+      <areaTerritorial unidad="Kilómetros cuadrados">139.8</areaTerritorial>
+    </departamento>
+  </departamentos>
+  <departamento id="3" nombre="Chalatenango">
+      <cabecera>Chalatenango</cabecera>
+      <habitantes>21,102</habitantes>
+      <altura>800 m s. n. m.</altura>
+      <areaTerritorial unidad="Kilómetros cuadrados">131.8</areaTerritorial>
+    </departamento>
+</pais>

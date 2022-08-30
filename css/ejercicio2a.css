@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+pais::before {
+	content:attr(nombre);
+	color:white;
+	font-weight:lighter;
+	text-align:left;
+	font-family:'Times New Roman', Times, serif; 
+	margin-bottom:5px;
+	display:inline-block;
+}
+
+pais {
+	background-color:#ff5c4a;
+	color:#3d0522;	
+	font-family:'Times New Roman', Times, serif;
+	width:400px;
+	margin:5px auto;
+	padding:5px;
+	font-size:2 em;
+	display:ruby-base-container;
+}
+
+moneda::before {
+	content:"Moneda: ";
+	display:inline;
+}
+
+moneda {
+	content:"Moneda: ";
+	display:block;
+}
+
+areaTelefonica::before {
+	content:"Área telefónica: ";
+	display:inline;
+}
+
+areaTelefonica {
+	content:"Área telefónica: ";
+	display:block;
+}
+
+idiomas::before {
+	padding-top:6px;
+	content:"Idiomas: ";
+	display:block;
+}
+
+oficial::before {
+	content:"-";
+	padding-left:6px;
+  	padding-right:4px;
+	display:inline;
+}
+
+oficial {
+	display:block;
+}
+
+oficial::after {
+	content:", oficial";
+	display:inline;
+}
+
+autoctono::before {
+	content: "-";
+	padding-left:6px;
+  	padding-right:4px;
+	display:inline;
+}
+
+autoctono {
+	display:block;
+}
+
+autoctono::after {
+	content:", autoctono";
+	display:inline;
+}
+
+segundoIdioma::before {
+	content: "-";
+	padding-left:6px;
+  	padding-right:4px;
+	display:inline;
+}
+
+segundoIdioma {
+	display:block;
+}
+
+segundoIdioma::after {
+	content:", segundo";
+	display:inline;
+}
+
+
+departamentos::before {
+	padding-top:6px;
+	content:"Departamentos";
+	display:block;
+}
+
+departamento::before {
+	font-weight:bolder;
+	content:""attr(nombre);
+	padding-left:6px;
+	display:inline;
+}
+
+departamento {
+	display:block;
+}
+
+cabecera::before {
+	content:"Cabecera: ";
+	display:inline;
+}
+
+cabecera {
+	padding-left:26px;
+	display:block;
+} 
+
+habitantes::before {
+	content:"Habitantes: ";
+	display:inline;
+}
+
+habitantes {
+	padding-left:26px;
+	display:block;
+}
+
+altura::before {
+	content:"Altura: ";
+	display:inline;
+}
+
+altura {
+	padding-left:26px;
+	display:block;
+}
+
+
+areaTerritorial::before {
+	content:"Área: ";
+	display:inline;
+}
+
+areaTerritorial {
+	padding-left:26px;
+	display:block;
+}
+
+areaTerritorial::after {
+	content:" "attr(unidad);
+	display:inline;
+} 
+
